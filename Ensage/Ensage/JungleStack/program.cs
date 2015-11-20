@@ -45,7 +45,7 @@ namespace JungleStack
         static void Main(string[] args)
         {
             var hotkey = new MenuItem("hotkey", "Toggle hotkey").SetValue(
-               new KeyBind('O', KeyBindType.Toggle));
+               new KeyBind('l', KeyBindType.Toggle));
             hotkey.ValueChanged += Hotkey_ValueChanged;
             Menu.AddItem(hotkey);
 
